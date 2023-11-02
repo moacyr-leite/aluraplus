@@ -24,12 +24,10 @@ body {
   background-image: url("img/Background.png");
   background-repeat: no-repeat;
   background-size: 100%;
+  align-items: center;
+  text-align: center;
 }
 .principal__texto {
-  padding: 10%;
-  text-align: center;
-  height: 27rem;
-  width: 36.75rem;
 }
 
 .principal__botao {
