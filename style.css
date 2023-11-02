@@ -24,6 +24,8 @@ body {
   background-image: url("img/Background.png");
   background-repeat: no-repeat;
   background-size: 100%;
+  text-align: center;
+  align-itens: center;
 }
 .principal__texto {
   padding: 10%;
