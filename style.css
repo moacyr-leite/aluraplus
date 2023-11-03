@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700& family=Roboto&display=swap");
 :root {
   --cor-fundo: #00030c;
   --cor-texto-principal: #ffffff;
@@ -6,6 +6,7 @@
   --cor-botao: #167bf7;
 
   --fonte-familia: "Inter";
+  --fonte-secundaria: "Roboto";
 }
 * {
   margin: 0;
@@ -37,17 +38,22 @@ body {
   margin: 5% 0%;
 }
 .principal__img {
-  margin: 5% 0%;
+  margin: 1rem 0 3rem 0;
 }
 .principal__botao {
+  width: 30rem;
   display: block;
-  margin: 5% 0%;
+  margin-top: 1rem;
+  border: 1px solid var(--cor-texto-principal);
   padding: 1rem;
   color: var(--cor-texto-principal);
   border-radius: 0.5rem;
 }
 .--azul {
   background-color: var(--cor-botao);
+  border: none;
 }
 .principal__paragrafo {
+  margin-top: 0.625rem;
+  font-family: var(--fonte-secundaria);
 }
