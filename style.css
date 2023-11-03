@@ -5,7 +5,7 @@
   --cor-texto-secundario: #c0c0c0;
   --cor-botao: #167bf7;
 
-  --fonte-familia: "Inter", sans-serif;
+  --fonte-familia: "Inter";
 }
 * {
   margin: 0;
@@ -14,10 +14,12 @@
 body {
   background-color: var(--cor-fundo);
   font-family: var(--fonte-familia);
+  font-weight: 400;
   color: var(--cor-texto-principal);
 }
 .container {
-  text-justify: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
   height: 100vh;
 }
 .principal {
@@ -28,12 +30,18 @@ body {
   text-align: center;
 }
 .principal__texto {
+  margin: 10%;
 }
-
+.principal__titulo {
+  font-weight: 700;
+  margin: 5% 0%;
+}
+.principal__img {
+  margin: 5% 0%;
+}
 .principal__botao {
   display: block;
-  text-align: center;
-  width: 30rem;
+  margin: 5% 0%;
   padding: 1rem;
   color: var(--cor-texto-principal);
   border-radius: 0.5rem;
