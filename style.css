@@ -6,7 +6,7 @@
   --cor-botao: #167bf7;
 
   --fonte-familia: "Inter";
-  --fonte-secundaria: "Roboto";
+  --fonte-secundaria: "Inter";
 }
 * {
   margin: 0;
@@ -40,9 +40,9 @@ body {
 .principal__img {
   margin: 1rem 0 3rem 0;
 }
-.principal__botao {
+.container__botao {
   width: 30rem;
-  display: block;
+  display: inline-block;
   margin-top: 1rem;
   border: 1px solid var(--cor-texto-principal);
   padding: 1rem;
@@ -53,7 +53,24 @@ body {
   background-color: var(--cor-botao);
   border: none;
 }
+.--reduzido {
+  width: 134px;
+}
 .principal__paragrafo {
   margin-top: 0.625rem;
   font-family: var(--fonte-secundaria);
+}
+.secundario {
+  align-items: center;
+}
+.secundario__imagem {
+  padding-left: 13%;
+}
+.secundario__texto {
+  margin: 0% 10%;
+  align-items: center;
+}
+.secundario__titulo {
+  font-weight: 700;
+  margin: 1% 0%;
 }
